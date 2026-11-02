@@ -23,23 +23,6 @@ enable_testing()
 find_package(GTest REQUIRED)
 include(GoogleTest)
 
-add_executable(stack_test tests/stack_test.cpp)
-
-target_include_directories(stack_test PRIVATE
-    ${CMAKE_CURRENT_SOURCE_DIR}/src
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/rpn
-)
-
-target_link_libraries(stack_test PRIVATE
-    GTest::gtest_main
-)
-
-target_compile_options(stack_test PRIVATE
-    -Wall -Wextra -Wpedantic
-)
-
-gtest_discover_tests(stack_test)
-
 add_executable(rpn_test tests/rpn_test.cpp)
 
 target_include_directories(rpn_test PRIVATE

@@ -13,12 +13,12 @@ public:
         : rpn::Operator<T>(sign) 
     {}
 
-    void execute(Stack<T>& stack) const override {
+    void execute(std::stack<T>& stack) const override {
         try {
-            T operand = stack.pop();
+            T operand = pop_and_top(stack);
             stack.push(compute(operand));
         }
-        catch (StackEmptyError& e) {
+        catch (EmptyStackError& e) {
             throw std::runtime_error("Not enough operands for unary operator " 
                 + Operator<T>::get_sign());
         }

@@ -9,7 +9,7 @@ class Number : public Element<T> {
 public:
     Number(T _value) : value(_value) {}
 
-    void execute(Stack<T>& stack) const override {
+    void execute(std::stack<T>& stack) const override {
         stack.push(value);
     }
 

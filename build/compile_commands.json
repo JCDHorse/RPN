@@ -7,12 +7,6 @@
 },
 {
   "directory": "/home/justine/src/rpn/build",
-  "command": "/usr/bin/g++ -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -I/home/justine/src/rpn/src -I/home/justine/src/rpn/src/rpn -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/stack_test.dir/tests/stack_test.cpp.o -c /home/justine/src/rpn/tests/stack_test.cpp",
-  "file": "/home/justine/src/rpn/tests/stack_test.cpp",
-  "output": "/home/justine/src/rpn/build/CMakeFiles/stack_test.dir/tests/stack_test.cpp.o"
-},
-{
-  "directory": "/home/justine/src/rpn/build",
   "command": "/usr/bin/g++ -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -I/home/justine/src/rpn/src -I/home/justine/src/rpn/src/rpn -g -std=c++23 -Wall -Wextra -Wpedantic -o CMakeFiles/rpn_test.dir/tests/rpn_test.cpp.o -c /home/justine/src/rpn/tests/rpn_test.cpp",
   "file": "/home/justine/src/rpn/tests/rpn_test.cpp",
   "output": "/home/justine/src/rpn/build/CMakeFiles/rpn_test.dir/tests/rpn_test.cpp.o"

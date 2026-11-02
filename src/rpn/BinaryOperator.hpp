@@ -1,6 +1,7 @@
 #pragma once
 
 #include <cmath>
+#include <stdexcept>
 
 #include "RPN_Base.hpp"
 
@@ -14,13 +15,13 @@ public:
         : rpn::Operator<T>(sign) 
     {}
 
-    void execute(Stack<T>& stack) const override {
+    void execute(std::stack<T>& stack) const override {
         try {
-            T rhs = stack.pop();
-            T lhs = stack.pop();
+            T rhs = pop_and_top(stack);
+            T lhs = pop_and_top(stack);
             stack.push(compute(lhs, rhs));
         }
-        catch (StackEmptyError& e) {
+        catch (EmptyStackError& e) {
             throw std::runtime_error("Not enough operands for binary operator " 
                 + Operator<T>::get_sign());
         }

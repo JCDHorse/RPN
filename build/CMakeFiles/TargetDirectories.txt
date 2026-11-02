@@ -1,5 +1,4 @@
 /home/justine/src/rpn/build/CMakeFiles/rpn.dir
-/home/justine/src/rpn/build/CMakeFiles/stack_test.dir
 /home/justine/src/rpn/build/CMakeFiles/rpn_test.dir
 /home/justine/src/rpn/build/CMakeFiles/test.dir
 /home/justine/src/rpn/build/CMakeFiles/edit_cache.dir
