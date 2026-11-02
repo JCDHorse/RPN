@@ -1,0 +1,5 @@
+if(EXISTS "/home/justine/src/rpn/build/rpn_test[1]_tests.cmake")
+  include("/home/justine/src/rpn/build/rpn_test[1]_tests.cmake")
+else()
+  add_test(rpn_test_NOT_BUILT rpn_test_NOT_BUILT)
+endif()

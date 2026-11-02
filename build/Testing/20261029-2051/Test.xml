@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20261029-2051-Experimental"
+	Name="(empty)"
+	Generator="ctest-4.3.0"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="shepard"
+	OSRelease="7.2.12-200.fc44.x86_64"
+	OSVersion="#1 SMP PREEMPT_DYNAMIC Wed Oct 21 17:55:40 UTC 2026"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="113"
+	ModelName="AMD Ryzen 5 3600 6-Core Processor"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="8191"
+	TotalPhysicalMemory="15902"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3495.188965"
+	>
+	<Testing>
+		<StartDateTime>Nov 02 17:25 CET</StartDateTime>
+		<StartTestTime>1793636711</StartTestTime>
+		<TestList/>
+		<EndDateTime>Nov 02 17:25 CET</EndDateTime>
+		<EndTestTime>1793636711</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

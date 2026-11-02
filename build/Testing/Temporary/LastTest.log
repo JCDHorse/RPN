@@ -1,0 +1,219 @@
+Start testing: Oct 29 22:08 CET
+----------------------------------------------------------
+1/8 Testing: StackTest.IsEmptyAtConstruction
+1/8 Test: StackTest.IsEmptyAtConstruction
+Command: "/home/justine/src/rpn/build/stack_test" "--gtest_filter=StackTest.IsEmptyAtConstruction" "--gtest_also_run_disabled_tests"
+Directory: /home/justine/src/rpn/build
+"StackTest.IsEmptyAtConstruction" start time: Oct 29 22:08 CET
+Output:
+----------------------------------------------------------
+Running main() from /builddir/build/BUILD/gtest-1.17.0-build/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest.IsEmptyAtConstruction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest
+[ RUN      ] StackTest.IsEmptyAtConstruction
+[       OK ] StackTest.IsEmptyAtConstruction (0 ms)
+[----------] 1 test from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest.IsEmptyAtConstruction" end time: Oct 29 22:08 CET
+"StackTest.IsEmptyAtConstruction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/8 Testing: StackTest.PushMakesStackNonEmpty
+2/8 Test: StackTest.PushMakesStackNonEmpty
+Command: "/home/justine/src/rpn/build/stack_test" "--gtest_filter=StackTest.PushMakesStackNonEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/justine/src/rpn/build
+"StackTest.PushMakesStackNonEmpty" start time: Oct 29 22:08 CET
+Output:
+----------------------------------------------------------
+Running main() from /builddir/build/BUILD/gtest-1.17.0-build/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest.PushMakesStackNonEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest
+[ RUN      ] StackTest.PushMakesStackNonEmpty
+[       OK ] StackTest.PushMakesStackNonEmpty (0 ms)
+[----------] 1 test from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest.PushMakesStackNonEmpty" end time: Oct 29 22:08 CET
+"StackTest.PushMakesStackNonEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/8 Testing: StackTest.HeadReturnsLastPushedValue
+3/8 Test: StackTest.HeadReturnsLastPushedValue
+Command: "/home/justine/src/rpn/build/stack_test" "--gtest_filter=StackTest.HeadReturnsLastPushedValue" "--gtest_also_run_disabled_tests"
+Directory: /home/justine/src/rpn/build
+"StackTest.HeadReturnsLastPushedValue" start time: Oct 29 22:08 CET
+Output:
+----------------------------------------------------------
+Running main() from /builddir/build/BUILD/gtest-1.17.0-build/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest.HeadReturnsLastPushedValue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest
+[ RUN      ] StackTest.HeadReturnsLastPushedValue
+[       OK ] StackTest.HeadReturnsLastPushedValue (0 ms)
+[----------] 1 test from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest.HeadReturnsLastPushedValue" end time: Oct 29 22:08 CET
+"StackTest.HeadReturnsLastPushedValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/8 Testing: StackTest.PopReturnsLastPushedValue
+4/8 Test: StackTest.PopReturnsLastPushedValue
+Command: "/home/justine/src/rpn/build/stack_test" "--gtest_filter=StackTest.PopReturnsLastPushedValue" "--gtest_also_run_disabled_tests"
+Directory: /home/justine/src/rpn/build
+"StackTest.PopReturnsLastPushedValue" start time: Oct 29 22:08 CET
+Output:
+----------------------------------------------------------
+Running main() from /builddir/build/BUILD/gtest-1.17.0-build/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest.PopReturnsLastPushedValue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest
+[ RUN      ] StackTest.PopReturnsLastPushedValue
+[       OK ] StackTest.PopReturnsLastPushedValue (0 ms)
+[----------] 1 test from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest.PopReturnsLastPushedValue" end time: Oct 29 22:08 CET
+"StackTest.PopReturnsLastPushedValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/8 Testing: StackTest.HeadOnEmptyStackThrows
+5/8 Test: StackTest.HeadOnEmptyStackThrows
+Command: "/home/justine/src/rpn/build/stack_test" "--gtest_filter=StackTest.HeadOnEmptyStackThrows" "--gtest_also_run_disabled_tests"
+Directory: /home/justine/src/rpn/build
+"StackTest.HeadOnEmptyStackThrows" start time: Oct 29 22:08 CET
+Output:
+----------------------------------------------------------
+Running main() from /builddir/build/BUILD/gtest-1.17.0-build/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest.HeadOnEmptyStackThrows
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest
+[ RUN      ] StackTest.HeadOnEmptyStackThrows
+[       OK ] StackTest.HeadOnEmptyStackThrows (0 ms)
+[----------] 1 test from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest.HeadOnEmptyStackThrows" end time: Oct 29 22:08 CET
+"StackTest.HeadOnEmptyStackThrows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/8 Testing: StackTest.PopOnEmptyStackThrows
+6/8 Test: StackTest.PopOnEmptyStackThrows
+Command: "/home/justine/src/rpn/build/stack_test" "--gtest_filter=StackTest.PopOnEmptyStackThrows" "--gtest_also_run_disabled_tests"
+Directory: /home/justine/src/rpn/build
+"StackTest.PopOnEmptyStackThrows" start time: Oct 29 22:08 CET
+Output:
+----------------------------------------------------------
+Running main() from /builddir/build/BUILD/gtest-1.17.0-build/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest.PopOnEmptyStackThrows
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest
+[ RUN      ] StackTest.PopOnEmptyStackThrows
+[       OK ] StackTest.PopOnEmptyStackThrows (0 ms)
+[----------] 1 test from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest.PopOnEmptyStackThrows" end time: Oct 29 22:08 CET
+"StackTest.PopOnEmptyStackThrows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/8 Testing: StackTest.CanPushBeyondInitialCapacity
+7/8 Test: StackTest.CanPushBeyondInitialCapacity
+Command: "/home/justine/src/rpn/build/stack_test" "--gtest_filter=StackTest.CanPushBeyondInitialCapacity" "--gtest_also_run_disabled_tests"
+Directory: /home/justine/src/rpn/build
+"StackTest.CanPushBeyondInitialCapacity" start time: Oct 29 22:08 CET
+Output:
+----------------------------------------------------------
+Running main() from /builddir/build/BUILD/gtest-1.17.0-build/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest.CanPushBeyondInitialCapacity
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest
+[ RUN      ] StackTest.CanPushBeyondInitialCapacity
+[       OK ] StackTest.CanPushBeyondInitialCapacity (0 ms)
+[----------] 1 test from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest.CanPushBeyondInitialCapacity" end time: Oct 29 22:08 CET
+"StackTest.CanPushBeyondInitialCapacity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/8 Testing: StackTest.WorksWithStrings
+8/8 Test: StackTest.WorksWithStrings
+Command: "/home/justine/src/rpn/build/stack_test" "--gtest_filter=StackTest.WorksWithStrings" "--gtest_also_run_disabled_tests"
+Directory: /home/justine/src/rpn/build
+"StackTest.WorksWithStrings" start time: Oct 29 22:08 CET
+Output:
+----------------------------------------------------------
+Running main() from /builddir/build/BUILD/gtest-1.17.0-build/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest.WorksWithStrings
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest
+[ RUN      ] StackTest.WorksWithStrings
+[       OK ] StackTest.WorksWithStrings (0 ms)
+[----------] 1 test from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest.WorksWithStrings" end time: Oct 29 22:08 CET
+"StackTest.WorksWithStrings" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 29 22:08 CET

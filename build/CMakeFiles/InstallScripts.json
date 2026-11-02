@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/justine/src/rpn/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,52 @@
+{
+  "tests": 8,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "StackTest",
+      "tests": 8,
+      "testsuite": [
+        {
+          "name": "IsEmptyAtConstruction",
+          "file": "\/home\/justine\/src\/rpn\/tests\/stack_test.cpp",
+          "line": 4
+        },
+        {
+          "name": "PushMakesStackNonEmpty",
+          "file": "\/home\/justine\/src\/rpn\/tests\/stack_test.cpp",
+          "line": 11
+        },
+        {
+          "name": "HeadReturnsLastPushedValue",
+          "file": "\/home\/justine\/src\/rpn\/tests\/stack_test.cpp",
+          "line": 20
+        },
+        {
+          "name": "PopReturnsLastPushedValue",
+          "file": "\/home\/justine\/src\/rpn\/tests\/stack_test.cpp",
+          "line": 30
+        },
+        {
+          "name": "HeadOnEmptyStackThrows",
+          "file": "\/home\/justine\/src\/rpn\/tests\/stack_test.cpp",
+          "line": 41
+        },
+        {
+          "name": "PopOnEmptyStackThrows",
+          "file": "\/home\/justine\/src\/rpn\/tests\/stack_test.cpp",
+          "line": 47
+        },
+        {
+          "name": "CanPushBeyondInitialCapacity",
+          "file": "\/home\/justine\/src\/rpn\/tests\/stack_test.cpp",
+          "line": 53
+        },
+        {
+          "name": "WorksWithStrings",
+          "file": "\/home\/justine\/src\/rpn\/tests\/stack_test.cpp",
+          "line": 70
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "tests": 51,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "RpnNumericTest\/0",
+      "tests": 13,
+      "testsuite": [
+        {
+          "name": "SingleNumber",
+          "type_param": "int",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 27
+        },
+        {
+          "name": "Addition",
+          "type_param": "int",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 31
+        },
+        {
+          "name": "SubtractionRespectsOperandOrder",
+          "type_param": "int",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 35
+        },
+        {
+          "name": "Multiplication",
+          "type_param": "int",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 40
+        },
+        {
+          "name": "DivisionRespectsOperandOrder",
+          "type_param": "int",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 44
+        },
+        {
+          "name": "NegativeNumber",
+          "type_param": "int",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 48
+        },
+        {
+          "name": "MinusAloneIsAnOperator",
+          "type_param": "int",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 52
+        },
+        {
+          "name": "ChainedExpression",
+          "type_param": "int",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 56
+        },
+        {
+          "name": "ExtraWhitespaceIsIgnored",
+          "type_param": "int",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 61
+        },
+        {
+          "name": "CalculatorIsReusable",
+          "type_param": "int",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 65
+        },
+        {
+          "name": "UnknownTokenThrows",
+          "type_param": "int",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 72
+        },
+        {
+          "name": "PlusSignPrefixIsRejected",
+          "type_param": "int",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 78
+        },
+        {
+          "name": "OutOfRangeNumberThrows",
+          "type_param": "int",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 83
+        }
+      ]
+    },
+    {
+      "name": "RpnNumericTest\/1",
+      "tests": 13,
+      "testsuite": [
+        {
+          "name": "SingleNumber",
+          "type_param": "long",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 27
+        },
+        {
+          "name": "Addition",
+          "type_param": "long",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 31
+        },
+        {
+          "name": "SubtractionRespectsOperandOrder",
+          "type_param": "long",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 35
+        },
+        {
+          "name": "Multiplication",
+          "type_param": "long",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 40
+        },
+        {
+          "name": "DivisionRespectsOperandOrder",
+          "type_param": "long",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 44
+        },
+        {
+          "name": "NegativeNumber",
+          "type_param": "long",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 48
+        },
+        {
+          "name": "MinusAloneIsAnOperator",
+          "type_param": "long",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 52
+        },
+        {
+          "name": "ChainedExpression",
+          "type_param": "long",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 56
+        },
+        {
+          "name": "ExtraWhitespaceIsIgnored",
+          "type_param": "long",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 61
+        },
+        {
+          "name": "CalculatorIsReusable",
+          "type_param": "long",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 65
+        },
+        {
+          "name": "UnknownTokenThrows",
+          "type_param": "long",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 72
+        },
+        {
+          "name": "PlusSignPrefixIsRejected",
+          "type_param": "long",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 78
+        },
+        {
+          "name": "OutOfRangeNumberThrows",
+          "type_param": "long",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 83
+        }
+      ]
+    },
+    {
+      "name": "RpnNumericTest\/2",
+      "tests": 13,
+      "testsuite": [
+        {
+          "name": "SingleNumber",
+          "type_param": "double",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 27
+        },
+        {
+          "name": "Addition",
+          "type_param": "double",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 31
+        },
+        {
+          "name": "SubtractionRespectsOperandOrder",
+          "type_param": "double",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 35
+        },
+        {
+          "name": "Multiplication",
+          "type_param": "double",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 40
+        },
+        {
+          "name": "DivisionRespectsOperandOrder",
+          "type_param": "double",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 44
+        },
+        {
+          "name": "NegativeNumber",
+          "type_param": "double",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 48
+        },
+        {
+          "name": "MinusAloneIsAnOperator",
+          "type_param": "double",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 52
+        },
+        {
+          "name": "ChainedExpression",
+          "type_param": "double",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 56
+        },
+        {
+          "name": "ExtraWhitespaceIsIgnored",
+          "type_param": "double",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 61
+        },
+        {
+          "name": "CalculatorIsReusable",
+          "type_param": "double",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 65
+        },
+        {
+          "name": "UnknownTokenThrows",
+          "type_param": "double",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 72
+        },
+        {
+          "name": "PlusSignPrefixIsRejected",
+          "type_param": "double",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 78
+        },
+        {
+          "name": "OutOfRangeNumberThrows",
+          "type_param": "double",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 83
+        }
+      ]
+    },
+    {
+      "name": "RpnIntTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "IntegerDivisionTruncates",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 91
+        },
+        {
+          "name": "DecimalNumberIsRejected",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 96
+        }
+      ]
+    },
+    {
+      "name": "RpnDoubleTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "DecimalArithmetic",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 103
+        },
+        {
+          "name": "ScientificNotation",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 109
+        }
+      ]
+    },
+    {
+      "name": "RpnParserTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "EmptyStringGivesNoElements",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 116
+        },
+        {
+          "name": "ElementCount",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 122
+        }
+      ]
+    },
+    {
+      "name": "RpnErrorTest",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "EmptyExpressionThrows",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 132
+        },
+        {
+          "name": "OperatorWithoutOperandsThrows",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 136
+        },
+        {
+          "name": "OperatorWithMissingOperandThrows",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 140
+        },
+        {
+          "name": "DISABLED_LeftoverOperandsThrow",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 148
+        },
+        {
+          "name": "DISABLED_IntDivisionByZeroThrows",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 152
+        },
+        {
+          "name": "DISABLED_DoubleDivisionByZeroThrows",
+          "file": "\/home\/justine\/src\/rpn\/tests\/rpn_test.cpp",
+          "line": 156
+        }
+      ]
+    }
+  ]
+}
